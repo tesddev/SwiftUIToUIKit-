@@ -10,6 +10,7 @@
 		5EAA810429AE850A0015AB07 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA810329AE850A0015AB07 /* SampleCode.xcconfig */; };
 		5EAA812A29AE947F0015AB07 /* SampleTripsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA810529AE85320015AB07 /* SampleTripsData.json */; };
 		826C4BE229CC94580062700E /* MultilineNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C4BE129CC94580062700E /* MultilineNotesView.swift */; };
+		826C4BE429CCA0DB0062700E /* CategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C4BE329CCA0DB0062700E /* CategoryPickerView.swift */; };
 		E7CA66352977CEFA00F32535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CA66342977CEFA00F32535 /* AppDelegate.swift */; };
 		E7CA66372977CEFA00F32535 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CA66362977CEFA00F32535 /* SceneDelegate.swift */; };
 		E7CA663F2977CEFA00F32535 /* SampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7CA663D2977CEFA00F32535 /* SampleApp.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 		5EAA810329AE850A0015AB07 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 		5EAA810529AE85320015AB07 /* SampleTripsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleTripsData.json; sourceTree = "<group>"; };
 		826C4BE129CC94580062700E /* MultilineNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineNotesView.swift; sourceTree = "<group>"; };
+		826C4BE329CCA0DB0062700E /* CategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerView.swift; sourceTree = "<group>"; };
 		E7CA66312977CEFA00F32535 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CA66342977CEFA00F32535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7CA66362977CEFA00F32535 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				826C4BE129CC94580062700E /* MultilineNotesView.swift */,
+				826C4BE329CCA0DB0062700E /* CategoryPickerView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				E7CA66762977D49200F32535 /* TripLocationSearchController.swift in Sources */,
 				E7CA66982979311A00F32535 /* PersistanceController+Trip.swift in Sources */,
 				826C4BE229CC94580062700E /* MultilineNotesView.swift in Sources */,
+				826C4BE429CCA0DB0062700E /* CategoryPickerView.swift in Sources */,
 				E7CA66722977D43900F32535 /* TripLogsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
