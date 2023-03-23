@@ -137,7 +137,7 @@ private extension TripEditController {
     func notesCell(for trip: Trip, indexpath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: TripItemTableViewCell.defaultIdentifier, for: indexpath)
         cell.contentConfiguration = UIHostingConfiguration {
-            MultilineNotesView()
+            MultilineNotesView(trip: trip)
         }
         return cell
     }
