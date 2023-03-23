@@ -218,11 +218,7 @@ private extension TripEditController {
                 }
                 return textCell
             case .notes:
-                let textCell = textCell(with: trip.notes, placeHolder: NSLocalizedString("Notes", comment: "Placeholder for the notes field"), indexPath: index)
-                textCell?.onTextChange { [unowned self] textField in
-                    trip.notes = textField.text ?? ""
-                }
-                return textCell
+                return notesCell(for: trip, indexpath: index)
             case .startDate:
                 let datePickerCell = datePickercCell(
                     with: trip.startDate,
