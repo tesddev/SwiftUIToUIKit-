@@ -9,6 +9,7 @@ import UIKit
 import CoreData
 import PhotosUI
 import Foundation
+import SwiftUI
 
 class TripEditController: UIViewController {
 
@@ -131,6 +132,14 @@ private extension TripEditController {
             return textCell
         }
         return nil
+    }
+    
+    func notesCell(for trip: Trip, indexpath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: TripItemTableViewCell.defaultIdentifier, for: indexpath)
+        cell.contentConfiguration = UIHostingConfiguration {
+            MultilineNotesView()
+        }
+        return cell
     }
 
     func datePickercCell(with date: Date,
